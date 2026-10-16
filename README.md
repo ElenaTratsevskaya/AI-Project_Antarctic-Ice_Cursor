@@ -1,4 +1,4 @@
-# AI-Project_Arctic-Antarctic-Ice_Cursor
+# AI-Project_Antarctic-Ice_Cursor
 Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, January 2019–April 2026
 
 Поквартальная анимация изменения высоты наземного льда Антарктиды по данным NASA ICESat-2, январь 2019 — апрель 2026.<br><br>
