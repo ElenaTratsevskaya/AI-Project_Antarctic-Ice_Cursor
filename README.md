@@ -7,7 +7,7 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 </div>
 
 ## Как открыть
-Откройте файл `antarctica/index.html` в браузере. Все кадры уже внутри этого файла, поэтому его можно скачать и открыть из любой папки. Папка `frames` рядом не нужна. Если кадры собраны заново, страницу нужно обновить.
+Откройте файл `antarctic-land-ice-height.html` в браузере. Все кадры уже внутри этого файла, поэтому его можно скачать и открыть из любой папки. 
 Сначала карта стоит под наклоном, затем плавно ложится в плоский вид, и только после этого идут кварталы. Весь период занимает около 20 секунд. Дальше и назад можно идти кнопками Play и Pause, ползунком, стрелками и пробелом.
 ## Что означают цвета
 На карте — изменение высоты поверхности льда с 1 января 2019 года. Каждая клетка — 20 км. Шкала фиксированная, от −5 м до +5 м.
@@ -56,7 +56,7 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 <p>Файлы распространяет NSIDC, для скачивания нужен вход Earthdata. В репозитории лежат локальные гранулы, по которым нарисованы кадры, а не отдельная переработанная версия научного продукта.</p>
 
 ## Как собираются кадры
-**build_antarctica.py** читает четыре файла NetCDF, собирает мозаику и записывает antarctica/frames/frame-00.png … frame-29.png и страницу **index.html**
+**build_antarctica.py** читает четыре файла NetCDF, собирает мозаику и записывает antarctica/frames/frame-00.png … frame-29.png и страницу **antarctic-land-ice-height.html**
 <pre>python build_antarctica.py</pre>
 <p>Нужны пакеты Python: h5py, numpy, pillow.</p>
 <p>Перед раскраской сделано несколько правок только для картинки:</p>
@@ -73,7 +73,7 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 <p><a href="https://nsidc.org/about/data-use-copyright">Условия NSIDC на данные, документацию и изображения</a></p>
 <br>
 
-<p>страница <pre>index.html</pre> сценарий <pre>build_antarctica.py</pre> и этот текст сделаны для проекта AI-Project_Arctic-Antarctic-Ice_Cursor.<br> 
+<p>страница <pre>antarctic-land-ice-height.html</pre> сценарий <pre>build_antarctica.py</pre> и этот текст сделаны для проекта AI-Project_Arctic-Antarctic-Ice_Cursor.<br> 
 Их можно открывать и передавать вместе со ссылкой на источник данных. <br>
 На научные числа в кадрах, на исходные наблюдения распространяются условия NASA и NSIDC</p><br>
 
