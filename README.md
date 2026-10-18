@@ -10,7 +10,7 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 Откройте файл `antarctic-land-ice-height.html` в браузере. Все кадры уже внутри этого файла, поэтому его можно скачать и открыть из любой папки. 
 Сначала карта стоит под наклоном, затем плавно ложится в плоский вид, и только после этого идут кварталы. Весь период занимает около 20 секунд. Дальше и назад можно идти кнопками Play и Pause, ползунком, стрелками и пробелом.
 
-[Ссылка открытого доступа на карту](https://elenatratsevskaya.github.io/AI-Project_Antarctic-Ice_Cursor/antarctic-land-ice-height.html)
+**[Ссылка открытого доступа на карту](https://elenatratsevskaya.github.io/AI-Project_Antarctic-Ice_Cursor/antarctic-land-ice-height.html)**
 
 ## Что означают цвета
 На карте — изменение высоты поверхности льда с 1 января 2019 года. Каждая клетка — 20 км. Шкала фиксированная, от −5 м до +5 м.
