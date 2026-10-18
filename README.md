@@ -81,4 +81,6 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 
 <img width="1909" height="900" alt="01" src="https://github.com/user-attachments/assets/98d8bde9-df1d-4540-9e92-baa335f87518" />
 
-<p>Арктика в эту анимацию пока не входит.</p>
+<p>Арктика в эту анимацию не входит.</p>
+
+**[Ссылка на AI-Project_Arctic-Ice_Cursor](https://github.com/ElenaTratsevskaya/AI-Project_Arctic-Ice_Cursor/tree/main)**
