@@ -1,7 +1,10 @@
 # AI-Project_Antarctic-Ice_Cursor
 Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, January 2019–April 2026
 
-Поквартальная анимация изменения высоты наземного льда Антарктиды по данным NASA ICESat-2, январь 2019 — апрель 2026.<br><br>
+Поквартальная анимация изменения высоты наземного льда Антарктиды по данным NASA ICESat-2, январь 2019 — апрель 2026.<br>
+Это продолжение проекта  [AI-Project_Arctic-Ice_Cursor](https://github.com/ElenaTratsevskaya/AI-Project_Arctic-Ice_Cursor/blob/main/README.md)
+
+<br>
 <div id="header" align="center">
 <img src="https://cdn1.tenchat.ru/static/vbc-gostinder/2025-05-19/f3d592c4-6f18-4095-8b73-f6d89e8c3f58.png?width=1004&height=525&fmt=webp" title="Cursor" width="133" height="70"/>&nbsp;
 </div>
@@ -10,7 +13,11 @@ Quarterly animation of Antarctic land-ice height change from NASA ICESat-2, Janu
 Откройте файл `antarctic-land-ice-height.html` в браузере. Все кадры уже внутри этого файла, поэтому его можно скачать и открыть из любой папки. 
 Сначала карта стоит под наклоном, затем плавно ложится в плоский вид, и только после этого идут кварталы. Весь период занимает около 20 секунд. Дальше и назад можно идти кнопками Play и Pause, ползунком, стрелками и пробелом.
 
-**[Ссылка открытого доступа на карту](https://elenatratsevskaya.github.io/AI-Project_Antarctic-Ice_Cursor/antarctic-land-ice-height.html)**
+**[Ссылка открытого доступа на карту - Антарктида](https://elenatratsevskaya.github.io/AI-Project_Antarctic-Ice_Cursor/antarctic-land-ice-height.html)**
+
+**[Ссылка открытого доступа на карту - Арктика](https://elenatratsevskaya.github.io/AI-Project_Arctic-Ice_Cursor/arctic-land-ice-height)**
+
+<p>На карте не толщина льда и не морской лёд, а изменение высоты поверхности наземного льда (delta_h) относительно 1 января 2019 года: Гренландия и арктические ледники по продукту ATL15. Толщина ледникового щита — сотни и тысячи метров; опускание поверхности на десятки метров за несколько лет на выходных ледниках и в зоне абляции (таяние, сток, откалывание) — обычная динамика, а не «лёд тоньше нуля». Оценка толщины морского льда порядка метров к этой карте не относится. Шкала на странице ограничена ±5 м: более сильные изменения остаются самым тёмным цветом края шкалы (на странице outlook для значений сильнее ±5 м — отдельный, ещё более тёмный оттенок).</p>
 
 ## Что означают цвета
 На карте — изменение высоты поверхности льда с 1 января 2019 года. Каждая клетка — 20 км. Шкала фиксированная, от −5 м до +5 м.
